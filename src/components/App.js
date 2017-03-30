@@ -1,21 +1,22 @@
+//React
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import '../assets/stylesheets/App.css';
+//Redux
+import configureStore from './store/configureStore.js';
+import { Provider } from 'react-redux';
+//Routes
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
+
+const store = configureStore();
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <Provider store={store}>
+                <Router history={browserHistory} routes={routes} />
+            </Provider>
+        );
+    }
 }
 
 export default App;
