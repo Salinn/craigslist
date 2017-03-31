@@ -1,23 +1,22 @@
 //Index of Listings
-export const FETCH_LISTINGS = '';
-export const FETCH_LISTINGS_SUCCESS = '';
-export const FETCH_LISTINGS_FAILURE = '';
-export const RESET_LISTINGS = '';
+export const FETCH_LISTINGS = 'FETCH_LISTINGS';
+export const FETCH_LISTINGS_SUCCESS = 'FETCH_LISTINGS_SUCCESS';
+export const FETCH_LISTINGS_FAILURE = 'FETCH_LISTINGS_FAILURE';
+export const RESET_LISTINGS = 'RESET_LISTINGS';
 
 //Creating new Listing
-export const CREATE_LISTING = '';
-export const CREATE_LISTING_SUCCESS = '';
-export const CREATE_LISTING_FAILURE = '';
-export const RESET_NEW_LISTING = '';
+export const CREATE_LISTING = 'CREATE_LISTING';
+export const CREATE_LISTING_SUCCESS = 'CREATE_LISTING_SUCCESS';
+export const CREATE_LISTING_FAILURE = 'CREATE_LISTING_FAILURE';
+export const RESET_NEW_LISTING = 'RESET_NEW_LISTING';
 
 //Show of Listing
-export const FETCH_LISTING = '';
-export const FETCH_LISTING_SUCCESS = '';
-export const FETCH_LISTING_FAILURE = '';
-export const RESET_LISTING = '';
+export const FETCH_LISTING = 'FETCH_LISTING';
+export const FETCH_LISTING_SUCCESS = 'FETCH_LISTING_SUCCESS';
+export const FETCH_LISTING_FAILURE = 'FETCH_LISTING_FAILURE';
+export const RESET_LISTING = 'RESET_LISTING';
 
 //Creating new Listing
-export const DELETE_LISTING = '';
-export const DELETE_LISTING_SUCCESS = '';
-export const DELETE_LISTING_FAILURE = '';
-export const RESET_DELETED_LISTING = '';
+export const DELETE_LISTING = 'DELETE_LISTING';
+export const DELETE_LISTING_SUCCESS = 'DELETE_LISTING_SUCCESS';
+export const DELETE_LISTING_FAILURE = 'DELETE_LISTING_FAILURE';
